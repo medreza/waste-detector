@@ -1,0 +1,6 @@
+# waste-detector
+A library for low cost Arduino based DIY waste detector. This library combines inductive sensor and ultrasonic sensor as a waste detector sensor.
+### Description
+The system utilizes sensor fusion of an inductive PNP NO sensor and ultrasonic ping proximity sensor to distinguish metal, paper, and plastic waste. Metal waste are detected by using the inductive sensor, while paper and plastic are detected by differentiating ping time difference of the ultrasonic sensor. For further detailed explanation of the system, see [this thesis](https://www.academia.edu/35934485/Microcontroller-Based_Sorting_System_of_Plastic_Bottles_Tin_Cans_and_Paper_Cartons_through_Ultrasonic_Sensing) and [this paper](https://www.researchgate.net/publication/332824997_A_Low-Cost_Automated_Sorting_Recycle_Bin_powered_by_Arduino_Microcontroller). This project was inspired by combining the best of them.
+### Usage
+See [example](https://github.com/medreza/waste-detector/blob/master/examples/SimpleDetection.ino)
